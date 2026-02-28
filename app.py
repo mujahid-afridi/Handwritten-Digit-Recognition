@@ -99,3 +99,7 @@ if uploaded_file is not None:
     st.write(f"Perceptron Prediction: {class_p}")
     st.write(f"ANN Prediction: {class_a}")
     st.write(f"CNN Prediction: {class_c}")
+
+    # --------------------------
+    st.subheader("Final Prediction")
+    st.success(f"Final Predicted Digit: {class_c}")
